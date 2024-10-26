@@ -9,3 +9,4 @@ What I'll be using in it-
 6. Modern Tech
 7. React Hooks (hooks, state)
 8. Entire React Tech Stack
+9. Hosting On Firebase
