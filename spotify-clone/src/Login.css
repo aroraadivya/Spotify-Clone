@@ -6,3 +6,8 @@
 .login > img{
     width: 100%;
 }
+
+.login > a{
+    padding: 20px;
+    background-color: #1db954;
+}
