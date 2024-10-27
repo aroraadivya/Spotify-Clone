@@ -1,6 +1,7 @@
 .login{
     display: grid;
     place-items: center;
+    height: 100vh;
 }
 
 .login > img{
@@ -13,5 +14,5 @@
     background-color: #1db954;
     font-weight: 800;
     color: white;
-    
+    text-decoration: none;
 }
