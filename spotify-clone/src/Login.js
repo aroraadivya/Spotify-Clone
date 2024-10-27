@@ -5,7 +5,7 @@ function Login() {
     return (
         <div className='login'>
             <h1>I'm the login page</h1>
-            <img src="images/spotifyLogo.png" alt=""/>
+            <img src="images/SpotifyLogo.jpg" alt=""/>
             <button>LOGIN WITH SPOTIFY</button>
         </div>
     );
