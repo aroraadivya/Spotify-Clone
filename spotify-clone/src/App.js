@@ -22,7 +22,8 @@ function App() {
       <div className="app">
         {
           token?(
-            <Player />
+            // <Player />
+            <h1>You are logged in</h1>
           ) : (
             <Login />
           )
