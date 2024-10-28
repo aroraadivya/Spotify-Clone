@@ -4,6 +4,7 @@ import Login from './Login';
 import { getTokenFromUrl } from './spotify';
 import SpotifyWebApi from "spotify-web-api-js";
 
+const spotify = new SpotifyWebApi();
 function App() {
   const [token, setToken] = useState(null);
 
