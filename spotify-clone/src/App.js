@@ -7,7 +7,7 @@ function App() {
   //run code on the basis of given condition
   useEffect(() => {
     //code
-  });
+  }, []);
 
   return (
       <div className="app">
