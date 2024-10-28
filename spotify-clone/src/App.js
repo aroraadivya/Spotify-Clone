@@ -11,6 +11,9 @@ function App() {
     window.location.hash = "";
     const token = hash.access_token;
 
+    if (token) {
+      setToken(token);
+    }
     console.log("I HAVE A TOKEN", token);
   }, []);
 
