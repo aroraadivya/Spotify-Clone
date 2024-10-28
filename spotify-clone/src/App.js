@@ -14,6 +14,7 @@ function App() {
     if (token) {
       setToken(token);
     }
+    
     console.log("I HAVE A TOKEN", token);
   }, []);
 
