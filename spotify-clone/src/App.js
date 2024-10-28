@@ -4,8 +4,8 @@ import Login from './Login';
 import { getTokenFromUrl } from './spotify';
 
 function App() {
+  const [token, setToken] = useState(null);
 
-  //run code on the basis of given condition
   useEffect(() => {
     const hash = getTokenFromUrl();
     window.location.hash = "";
