@@ -20,7 +20,13 @@ function App() {
 
   return (
       <div className="app">
-        <Login />
+        {
+          token?(
+            <Player />
+          ) : (
+            <Login />
+          )
+        }
       </div>
   );
 }
