@@ -5,4 +5,4 @@ import React,
     useReducer
 } from "react";
 
-export const StateContezt = 
+export const StateContezt = createContext();
