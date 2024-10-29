@@ -12,5 +12,4 @@ export const DataLayer = ({ initialState, reducer, children }) => (
     </DataLayerContext.Provider>
 )
 
-
-    export default DataLayer;
+export default DataLayer;
