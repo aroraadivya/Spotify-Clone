@@ -31,7 +31,7 @@ function App() {
         {
           token?(
             // <Player />
-            <h1>You are logged in</h1>
+            <h1>I'm logged in</h1>
           ) : (
             <Login />
           )
