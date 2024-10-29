@@ -30,8 +30,8 @@ function App() {
       <div className="app">
         {
           token?(
-            // <Player />
-            <h1>I'm logged in</h1>
+            <Player />
+            // <h1>I'm logged in</h1>
           ) : (
             <Login />
           )
