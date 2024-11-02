@@ -8,7 +8,7 @@ import { useStateValue } from "./StateProvider";
 
 function Sidebar() {
   // const [{ playlists }, dispatch] = useStateValue();
-  const
+  const [{ playlists }] = useStateValue();
   
   return (
     <div className="sidebar">
