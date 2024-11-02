@@ -23,6 +23,7 @@ function App() {
 
       spotify.getMe().then(user => {
         console.log('User info:', user);
+        
       })
     }
 
