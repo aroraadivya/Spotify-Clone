@@ -27,7 +27,7 @@ function Footer({ spotify }) {
         item: r.item,
       });
     });
-  }, [spotify]);
+  }, [spotify, dispatch]);
 
   const handlePlayPause = () => {
     if (playing) {
