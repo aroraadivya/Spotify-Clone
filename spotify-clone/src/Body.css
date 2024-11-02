@@ -50,10 +50,10 @@
   background-color: black;
 }
   
-  .body__songs {
-    z-index: 1;
-    margin: 20px -30px;
-  }
+.body__songs {
+  z-index: 1;
+  margin: 20px -30px;
+}
   
   .body__info > img {
     height: 20vw;
