@@ -3,18 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import DataLayer from './DataLayer';
+import {DataLayer} from './DataLayer';
 import reducer, { initialState } from './reducer';
 
-const rootElement = document.getElementById('root');
-const root = ReactDOM.createRoot(rootElement);  // Use createRoot instead of render
-
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     <DataLayer initialState={initialState} reducer={reducer}>
       <App />
     </DataLayer>
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
