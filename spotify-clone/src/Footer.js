@@ -8,7 +8,6 @@ import RepeatIcon from "@mui/icons-material/Repeat";
 import VolumeDownIcon from "@mui/icons-material/VolumeDown";
 import PauseCircleOutlineIcon from "@mui/icons-material/PauseCircleOutline";
 import PlaylistPlayIcon from "@mui/icons-material/PlaylistPlay";
-import "./Footer.css";
 import { Grid, Slider } from "@mui/material";
 
 function Footer({ spotify }) {
