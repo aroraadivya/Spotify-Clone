@@ -3,11 +3,10 @@ import "./Body.css";
 import Header from "./Header";
 import { useStateValue } from "./StateProvider";
 import SongRow from "./SongRow";
-import PlayCircleFilledIcon from "@material-ui/icons/PlayCircleFilled";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
+import PlayCircleFilledIcon from "@mui/icons-material/PlayCircleFilled";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import { Button, IconButton } from '@mui/material';
-import PlayCircleFilled from '@mui/icons-material/PlayCircleFilled';
 
 function Body({ spotify }) {
   const [{ discover_weekly }, dispatch] = useStateValue();
@@ -74,7 +73,7 @@ function Body({ spotify }) {
         </div>
 
         {discover_weekly?.tracks.items.map((item) => (
-          <SongRow playSong={playSong} track={item.track} />
+          <SongRow key={item.track.id} playSong={playSong} track={item.track} />
         ))}
       </div>
     </div>
