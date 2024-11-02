@@ -5,7 +5,6 @@ import Player from "./Player";
 import { getTokenFromResponse } from "./spotify";
 import "./App.css";
 import Login from "./Login";
-import PlayCircleFilled from '@mui/icons-material/PlayCircleFilled';
 
 const s = new SpotifyWebApi();
 
