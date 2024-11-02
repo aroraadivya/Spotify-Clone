@@ -1,8 +1,8 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-  }
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
   
   .header__right {
     display: flex;
