@@ -1,7 +1,7 @@
 import React from "react";
 import "./Sidebar.css";
 import SidebarOption from "./SidebarOption";
-import HomeIcon from "@mui/icons-material/Home"; // Updated import
+import HomeIcon from "@mui/icons-material/Home";
 import SearchIcon from "@mui/icons-material/Search"; // Updated import
 import LibraryMusicIcon from "@mui/icons-material/LibraryMusic"; // Updated import
 import { useStateValue } from "./StateProvider";
