@@ -5,9 +5,9 @@
   place-items: center;
 }
   
-  .login > img {
-    height: 200px;
-  }
+.login > img {
+  height: 200px;
+}
   
   .login > a {
     color: white;
