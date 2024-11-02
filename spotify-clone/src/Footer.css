@@ -12,13 +12,14 @@
 .footer__right * .MuiSlider-root {
   color: green;
 }
-  .footer__left {
-    display: flex;
-    align-items: center;
-    color: white;
-    width: 300px;
-    flex: 0.3;
-  }
+
+.footer__left {
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 300px;
+  flex: 0.3;
+}
   
   .footer__green {
     color: #1ed15e;
