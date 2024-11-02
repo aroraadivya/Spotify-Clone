@@ -1,18 +1,14 @@
 import React from "react";
 import "./Sidebar.css";
 import SidebarOption from "./SidebarOption";
-import HomeIcon from "@material-ui/icons/Home";
-import SearchIcon from "@material-ui/icons/Search";
-import LibraryMusicIcon from "@material-ui/icons/LibraryMusic";
-import { getTokenFromResponse } from "./spotify";
+import HomeIcon from "@mui/icons-material/Home"; // Updated import
+import SearchIcon from "@mui/icons-material/Search"; // Updated import
+import LibraryMusicIcon from "@mui/icons-material/LibraryMusic"; // Updated import
 import { useStateValue } from "./StateProvider";
-import { Button, IconButton } from '@mui/material';
-import PlayCircleFilled from '@mui/icons-material/PlayCircleFilled';
 
 function Sidebar() {
   const [{ playlists }, dispatch] = useStateValue();
-  console.log(playlists);
-
+  
   return (
     <div className="sidebar">
       <img
@@ -27,7 +23,7 @@ function Sidebar() {
       <strong className="sidebar__title">PLAYLISTS</strong>
       <hr />
       {playlists?.items?.map((playlist) => (
-        <SidebarOption option={playlist.name} />
+        <SidebarOption key={playlist.id} option={playlist.name} />
       ))}
     </div>
   );
