@@ -3,7 +3,7 @@ import "./Body.css";
 import Header from "./Header";
 import { useStateValue } from "./StateProvider";
 import SongRow from "./SongRow";
-// import PlayCircleFilledIcon from "@material-ui/icons/PlayCircleFilled";
+import PlayCircleFilledIcon from "@material-ui/icons/PlayCircleFilled";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import { Button, IconButton } from '@mui/material';

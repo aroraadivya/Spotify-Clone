@@ -10,6 +10,8 @@ import PauseCircleOutlineIcon from "@material-ui/icons/PauseCircleOutline";
 import PlaylistPlayIcon from "@material-ui/icons/PlaylistPlay";
 import "./Footer.css";
 import { Grid, Slider } from "@material-ui/core";
+import { Button, IconButton } from '@mui/material';
+import PlayCircleFilled from '@mui/icons-material/PlayCircleFilled';
 
 function Footer({ spotify }) {
   const [{ token, item, playing }, dispatch] = useStateValue();
