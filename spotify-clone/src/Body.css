@@ -19,12 +19,12 @@
   padding: 10px;
 }
   
-  .body__shuffle {
-    font-size: 80px !important;
-    margin-left: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+.body__shuffle {
+  font-size: 80px !important;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
   
   .body__icons {
     display: flex;
