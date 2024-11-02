@@ -1,11 +1,11 @@
 .sidebarOption {
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-    height: 40px;
-    color: grey;
-    transition: 200ms color ease-in;
-  }
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  height: 40px;
+  color: grey;
+  transition: 200ms color ease-in;
+}
   
   .sidebarOption:hover {
     color: white;

@@ -16,10 +16,10 @@
   font-size: 12px;
 }
   
-  .sidebar__logo {
-    margin-right: auto;
-    object-fit: contain;
-    height: 70px;
-    padding: 10px;
-  }
+.sidebar__logo {
+  margin-right: auto;
+  object-fit: contain;
+  height: 70px;
+  padding: 10px;
+}
   
