@@ -34,6 +34,8 @@ function App() {
     console.log("I HAVE A TOKEN", token);
   }, []);
 
+  console.log('User is', user);
+  
   return (
       <div className="app">
         {
