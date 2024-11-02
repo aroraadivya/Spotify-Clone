@@ -32,7 +32,7 @@ function App() {
     }
 
     console.log("I HAVE A TOKEN", token);
-  }, [token]);
+  }, []);
 
   return (
       <div className="app">
