@@ -12,7 +12,6 @@ import PlaylistPlayIcon from "@mui/icons-material/PlaylistPlay";
 import { Grid, Slider } from "@mui/material";
 
 function Footer({ spotify }) {
-  const [{ token, item, playing }, dispatch] = useStateValue();
   const [{ item, playing }, dispatch] = useStateValue();
 
   useEffect(() => {
