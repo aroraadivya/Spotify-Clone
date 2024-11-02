@@ -40,15 +40,15 @@
   transform: scale(1.08);
 }
   
-  .body__background {
-    position: absolute;
-    top: 13vh;
-    right: 0;
-    opacity: 0.4;
-    height: 80%;
-    width: 80%;
-    background-color: black;
-  }
+.body__background {
+  position: absolute;
+  top: 13vh;
+  right: 0;
+  opacity: 0.4;
+  height: 80%;
+  width: 80%;
+  background-color: black;
+}
   
   .body__songs {
     z-index: 1;
