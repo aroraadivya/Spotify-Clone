@@ -23,8 +23,12 @@ function App() {
 
       spotify.getMe().then(user => {
         console.log('User info:', user);
-        
-      })
+
+        dispatch({
+          type: 'SET_USER',
+          user: user
+        });
+      });
     }
 
     console.log("I HAVE A TOKEN", token);
