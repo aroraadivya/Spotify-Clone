@@ -25,15 +25,15 @@
   color: #1ed15e;
 }
   
-  .footer__center {
-    flex: 0.4;
-    max-width: 300px;
-    padding: 0 100px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.footer__center {
+  flex: 0.4;
+  max-width: 300px;
+  padding: 0 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
   
   .footer__icon:hover,
   .footer__green:hover {
