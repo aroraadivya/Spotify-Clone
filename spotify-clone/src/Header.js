@@ -4,6 +4,8 @@ import { useStateValue } from "./StateProvider";
 import { Avatar } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
 import { useEffect } from "react";
+import { Button, IconButton } from '@mui/material';
+import PlayCircleFilled from '@mui/icons-material/PlayCircleFilled';
 
 function Header({ spotify }) {
   const [{ user }, dispatch] = useStateValue();
