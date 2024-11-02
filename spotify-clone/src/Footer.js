@@ -12,7 +12,7 @@ import "./Footer.css";
 import { Grid, Slider } from "@mui/material";
 
 function Footer({ spotify }) {
-  const [{ item, playing }, dispatch] = useStateValue();
+  const [{ token, item, playing }, dispatch] = useStateValue();
 
   useEffect(() => {
     spotify.getMyCurrentPlaybackState().then((r) => {
