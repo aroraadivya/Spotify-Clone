@@ -5,7 +5,8 @@ import { Avatar } from "@mui/material";  // Updated import
 import SearchIcon from "@mui/icons-material/Search"; // Updated import
 
 function Header({ spotify }) {
-  const [{ user }, dispatch] = useStateValue();
+  // const [{ user }, dispatch] = useStateValue();
+  
 
   return (
     <div className="header">
