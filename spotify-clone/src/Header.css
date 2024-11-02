@@ -4,10 +4,10 @@
   margin-bottom: 30px;
 }
   
-  .header__right {
-    display: flex;
-    align-items: center;
-  }
+.header__right {
+  display: flex;
+  align-items: center;
+}
   
   .header__left {
     flex: 0.5;
