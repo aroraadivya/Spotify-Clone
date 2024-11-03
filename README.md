@@ -1,1 +1,1 @@
-# Spotify-Clone App
+# Spotify-Clone
